@@ -223,14 +223,29 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      id="shopping-image"
+                      alt="Shopping Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/SHOPPING.jpg.jpg"
+                      onmouseover="changeToColor()"
+                      onmouseout="changeToBlackAndWhite()"
                     />
                   </div>
                 </a>
               </div>
             </div>
+            <script>
+              function changeToBlackAndWhite() {
+                var image = document.getElementById("shopping-image");
+                image.style.filter = "grayscale(100%)";
+              }
+            
+              function changeToColor() {
+                var image = document.getElementById("shopping-image");
+                image.style.filter = "grayscale(0%)";
+              }
+              changeToBlackAndWhite();
+            </script>
           </div>
           <!-- /END Project -->
 
