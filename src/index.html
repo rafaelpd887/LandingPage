@@ -289,14 +289,29 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      id="pig-image"
+                      alt="pig Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/pig.jpg"
+                      onmouseover="changeToColor3()"
+                      onmouseout="changeToBlackAndWhite3()"
                     />
                   </div>
                 </a>
               </div>
             </div>
+             <script>
+              function changeToBlackAndWhite3() {
+                var image = document.getElementById("pig-image");
+                image.style.filter = "grayscale(100%)";
+              }
+            
+              function changeToColor3() {
+                var image = document.getElementById("pig-image");
+                image.style.filter = "grayscale(0%)";
+              }
+              changeToBlackAndWhite3();
+            </script>
           </div>
           <!-- /END Project -->
         </div>
