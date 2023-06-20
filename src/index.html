@@ -315,6 +315,73 @@
             </script>
           </div>
           <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Análise de Clusters</h3>
+                <div>
+                  <p class="mb-4">
+                    Através de um banco de dados com informações de compra dos clientes de um distribuidor atacadista Português, iremos aplicar uma análise de cluster com o objetivo
+                    de segmentar esses clientes em diferentes grupos (clusters). Os cluster serão internamente homôgeneos e heterogêneos entre si, possibilitando diferentes tipos de análises
+                    e demosntrando como as técnicas de clusterização são relevantes para ajudar as empresas em tarefas de planejamento. 
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://rpubs.com/rafaelpd/1056383"
+                >
+                  Ver Projeto
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/rafaelpd887/DSPortfolio/blob/main/Clusters/projetocluster.R"
+                >
+                  Ver Código
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://rpubs.com/rafaelpd/1056383" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      id="SHOPPING-image"
+                      alt="SHOPPING Image"
+                      class="img-fluid"
+                      src="assets/SHOPPING.jpg"
+                      onmouseover="changeToColor2()"
+                      onmouseout="changeToBlackAndWhite2()"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <script>
+              function changeToBlackAndWhite2() {
+                var image = document.getElementById("SHOPPING-image");
+                image.style.filter = "grayscale(100%)";
+              }
+            
+              function changeToColor2() {
+                var image = document.getElementById("SHOPPING-image");
+                image.style.filter = "grayscale(0%)";
+              }
+              changeToBlackAndWhite2();
+            </script>
+          </div>
+          <!-- /END Project -->
         </div>
       </div>
     </section>
