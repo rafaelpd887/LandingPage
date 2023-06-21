@@ -382,6 +382,74 @@
             </script>
           </div>
           <!-- /END Project -->
+
+           <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Rankeando RMs através da Análise Fatorial</h3>
+                <div>
+                  <p class="mb-4">
+                    Com o crescimento desenfreado das grandes cidades brasileiras, o fenomeno da conurbação acaba por criar diversar regiões metropolitanas (RMs) por diversas partes do 
+                    território brasileiro. Através de um banco de dados do IBGE que disponibiliza centenas de dados a respeito do grau de desenvolvimento das principais regiões metropolitanas
+                    do Brasil, realizaremos uma Análise Fatorial por Componentes Principais afim de reduzir as informações contidas nesse bando de dados em fatores, e usaremos esses fatores para
+                    rankear as regiões de acordo com seu grau de desenvolvimento.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://rpubs.com/rafaelpd/1056409"
+                >
+                  Ver Projeto
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/rafaelpd887/DSPortfolio/blob/main/Análise%20Fatorial/PROJFATORIAL.R"
+                >
+                  Ver Código
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://rpubs.com/rafaelpd/1056409" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      id="rms-image"
+                      alt="rms Image"
+                      class="img-fluid"
+                      src="assets/rms.jpg"
+                      onmouseover="changeToColor5()"
+                      onmouseout="changeToBlackAndWhite5()"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <script>
+              function changeToBlackAndWhite5() {
+                var image = document.getElementById("rms-image");
+                image.style.filter = "grayscale(100%)";
+              }
+            
+              function changeToColor5() {
+                var image = document.getElementById("rms-image");
+                image.style.filter = "grayscale(0%)";
+              }
+              changeToBlackAndWhite5();
+            </script>
+          </div>
+          <!-- /END Project -->
         </div>
       </div>
     </section>
