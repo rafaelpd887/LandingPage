@@ -451,6 +451,74 @@
             </script>
           </div>
           <!-- /END Project -->
+          
+           <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Análise de correpondência para pacientes cardíacos</h3>
+                <div>
+                  <p class="mb-4">
+                    Este projeto apresenta a construção de um modelo preditivo para estimar a quantidade de CO2 emitida por automóveis. 
+                    O modelo é baseado em um grande banco de dados de uma concessionária canadense que descreve várias características de centenas de automóveis. 
+                    O objetivo é criar um modelo preciso e confiável que possa ser usado para prever as emissões de CO2 de diferentes tipos de automóveis. 
+                    O modelo foi construído usando uma combinação de técnicas estatísticas, incluindo análise de regressão múltipla e métodos de transformação de dados. 
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://rpubs.com/rafaelpd/1057275"
+                >
+                  Ver Projeto
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/rafaelpd887/DSPortfolio/blob/main/Análise%20de%20Correspondência/heart.R"
+                >
+                  Ver Código
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://rpubs.com/rafaelpd/1057275" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      id="heart-image"
+                      alt="heart Image"
+                      class="img-fluid"
+                      src="assets/heart.jpg"
+                      onmouseover="changeToColor6()"
+                      onmouseout="changeToBlackAndWhite6()"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <script>
+              function changeToBlackAndWhite6() {
+                var image = document.getElementById("heart-image");
+                image.style.filter = "grayscale(100%)";
+              }
+            
+              function changeToColor6() {
+                var image = document.getElementById("heart-image");
+                image.style.filter = "grayscale(0%)";
+              }
+              changeToBlackAndWhite6();
+            </script>
+          </div>
+          <!-- /END Project -->
         </div>
       </div>
     </section>
