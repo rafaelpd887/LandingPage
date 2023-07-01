@@ -519,6 +519,72 @@
             </script>
           </div>
           <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Outros Projetos</h3>
+                <div>
+                  <p class="mb-4">
+                    Além dos modelos apresentados acima, existem muitas varias outras técnicas e algoritmos usados na ciência de dados. Por favor, visite aqui meu diretório do github contendo os scripts de outros 
+                    projetos/exercícios abordando outros tipos de modelos. Todos os códigos estão escritos em R.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/rafaelpd887/DSPortfolio/tree/main/OutrosProjetos"
+                >
+                  Ver Projeto
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/rafaelpd887/DSPortfolio/tree/main/OutrosProjetos"
+                >
+                  Ver Códigos
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/rafaelpd887/DSPortfolio/tree/main/OutrosProjetos" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      id="data-image"
+                      alt="data Image"
+                      class="img-fluid"
+                      src="assets/data.jpg"
+                      onmouseover="changeToColor7()"
+                      onmouseout="changeToBlackAndWhite7()"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <script>
+              function changeToBlackAndWhite7() {
+                var image = document.getElementById("data-image");
+                image.style.filter = "grayscale(100%)";
+              }
+            
+              function changeToColor7() {
+                var image = document.getElementById("data-image");
+                image.style.filter = "grayscale(0%)";
+              }
+              changeToBlackAndWhite7();
+            </script>
+          </div>
+          <!-- /END Project -->
         </div>
       </div>
     </section>
