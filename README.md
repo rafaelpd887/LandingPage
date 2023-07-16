@@ -1,2 +1,2 @@
 # site
-Visite meu portfólio [aqui](rafaelpd.netlify.app)
+[Landing Page](https://rafaelpd.netlify.app)
